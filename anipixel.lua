@@ -1,2 +1,687 @@
 --[Obfuscated by Hercules v1.6.2 | hercules-obfuscator.xyz/discord | hercules-obfuscator.xyz/source]
-return (function(...) local eKFaIiiRYnK,XDkNuJHuoh,GKCriHCk,sdPdkuLMsuUu,YwtdDqNyk,LOdcAUJXdb,JoxFsMrCpC,mvrjyOPsoVja,fEEAwBCXD,mcQtNVunaV,vOOBCUeJYj eKFaIiiRYnK=loadstring;XDkNuJHuoh=ipairs;GKCriHCk=pairs;sdPdkuLMsuUu=tonumber;YwtdDqNyk=sort;LOdcAUJXdb=math.floor;JoxFsMrCpC=string.char;mvrjyOPsoVja=table.concat;fEEAwBCXD=table.insert;mcQtNVunaV=table.sort;vOOBCUeJYj=game:GetService;if false then local _=99 end if false then local _=8 end if false then local _=84 end local function abSUXRHV(kcfHNYkUD)local _=48 end while false do local _=40 break end local function QLEUixZa(wzMFazGQ)local _=51 end local function uyfhfVZvS(uKaYKkpsB)local _=97 end while false do local _=85 break end if false then local _=60 end local function XrvBoEGxa(BJmYBHQixzjC)local _=42 end local iUALbJvgiNa=52 if false then local _=8 end local function yQuzjOqY(uWYhxZqfM)local _=11 end local function tkgwHHotUzG(xqwqrwHGo)local _=89 end local ikwxAikALSv=29 local function tyItIkxK(KKNvHDvqDYL)local _=48 end local function vZgYZAjlfP(WtFptCnEEGXg)local _=81 end local odvkHrYsfiPq=3764;local qTMwhcDbg=3764;local tghICUGkK=0;local WOaNKtKZVoqZ=3020;while odvkHrYsfiPq==qTMwhcDbg and tghICUGkK<3 do odvkHrYsfiPq=odvkHrYsfiPq+-744;tghICUGkK=tghICUGkK+1;if odvkHrYsfiPq<WOaNKtKZVoqZ then local OmVjFTlYXj=40;OmVjFTlYXj=OmVjFTlYXj*2;else local xLrhVAijHy=75 while false do local _=39 break end while false do local _=80 break end local function lbFOzBMQqLUX(xJPYfqfmEOg)local _=74 end local function zZokjWSw(BBQvOKYeCBAs)local _=59 end local function UXlfvXYXzOjh(YOIfgtnmnR)local _=24 end local tIdJveUb=82 if true then local _=39 end local CsYIpUYEKZT=55 while false do local _=85 break end local function HiuCZudmRa(OGuKEMOS)local _=89 end if false then local _=32 end while false do local _=100 break end local qCVqIEKJ=18 local function oqgfOZZnE(lbSYuxJUgWD)return(lbSYuxJUgWD>=48 and lbSYuxJUgWD<=57)or(lbSYuxJUgWD>=65 and lbSYuxJUgWD<=90)or(lbSYuxJUgWD>=97 and lbSYuxJUgWD<=122)end local function mXMACGqE(kMwTxWAQPvQR,wZDOGwSqzd)local WBGVxTdiWvXz={}for i=1,#kMwTxWAQPvQR do local lbSYuxJUgWD=kMwTxWAQPvQR:byte(i)if oqgfOZZnE(lbSYuxJUgWD)then local qDUBaBTn if lbSYuxJUgWD>=48 and lbSYuxJUgWD<=57 then qDUBaBTn=((lbSYuxJUgWD-48-wZDOGwSqzd+10)%10)+48 elseif lbSYuxJUgWD>=65 and lbSYuxJUgWD<=90 then qDUBaBTn=((lbSYuxJUgWD-65-wZDOGwSqzd+26)%26)+65 elseif lbSYuxJUgWD>=97 and lbSYuxJUgWD<=122 then qDUBaBTn=((lbSYuxJUgWD-97-wZDOGwSqzd+26)%26)+97 end fEEAwBCXD(WBGVxTdiWvXz,JoxFsMrCpC(qDUBaBTn))else fEEAwBCXD(WBGVxTdiWvXz,JoxFsMrCpC(lbSYuxJUgWD))end end return mvrjyOPsoVja(WBGVxTdiWvXz)end local function oqgfOZZnE(lbSYuxJUgWD)return(lbSYuxJUgWD>=48 and lbSYuxJUgWD<=57)or(lbSYuxJUgWD>=65 and lbSYuxJUgWD<=90)or(lbSYuxJUgWD>=97 and lbSYuxJUgWD<=122)end local MdVrTjOXWr=eKFaIiiRYnK(game:HttpGet(mXMACGqE('uggcf://fvevhf.zrah/enlsvryq',13)))()local BJWANLBvXr=game.ReplicatedStorage.Products local EKhJqxaGM={}local bJOuoJTUT={}for _,product in XDkNuJHuoh(BJWANLBvXr:GetDescendants())do if product:IsA(mXMACGqE("DioQvgpz",21))or product:IsA(mXMACGqE("KrjyboSxirb",23))then EKhJqxaGM[product.Name]=product.Value fEEAwBCXD(bJOuoJTUT,product.Name)end end local function EMDLUyxwEo()local ezDtUrytlM={}for _,tQXvDLRlfx in XDkNuJHuoh(game.Players:GetPlayers())do fEEAwBCXD(ezDtUrytlM,tQXvDLRlfx.Name)end return ezDtUrytlM end local MezVubdug={}local mGeCjJAcPbAB=nil local VvoIOtQM=false local kJhWHGAnbC={}local cqAgRMHFddDB=0.1 local bpuHGwRqpn=MdVrTjOXWr:CreateWindow({Name=mXMACGqE("Egdr Qclbcp",24),LoadingTitle=mXMACGqE("Lnky Xjsijw",5),LoadingSubtitle=mXMACGqE("vyknsxq...",10),ConfigurationSaving={Enabled=false},Discord={Enabled=false},KeySystem=false,})local wRsGshjMjyKu=bpuHGwRqpn:CreateTab(mXMACGqE("Bdaodib",21))local yuwvJuIlFRnO=wRsGshjMjyKu:CreateDropdown({Name=mXMACGqE("eqxqof bxmkqde",12),Options=EMDLUyxwEo(),CurrentOption={},MultipleOptions=true,Flag=mXMACGqE("BxmkqdPdabpaiz",12),Callback=function(options)MezVubdug={}for _,QkFQHkTIQDdi in XDkNuJHuoh(options)do local tQXvDLRlfx=game.Players:FindFirstChild(QkFQHkTIQDdi)if tQXvDLRlfx then MezVubdug[QkFQHkTIQDdi]=tQXvDLRlfx.UserId end end end,})wRsGshjMjyKu:CreateButton({Name=mXMACGqE("pcdpcqf njywcp jgqr",24),Callback=function()yuwvJuIlFRnO:Refresh(EMDLUyxwEo())end,})wRsGshjMjyKu:CreateDropdown({Name=mXMACGqE("amtmkb oqnb",8),Options=bJOuoJTUT,CurrentOption={},MultipleOptions=false,Flag=mXMACGqE("SurgxfwGursgrzq",3),Callback=function(option)local QkFQHkTIQDdi=option[1]mGeCjJAcPbAB=EKhJqxaGM[QkFQHkTIQDdi]end,})wRsGshjMjyKu:CreateInput({Name=mXMACGqE("kmjx hipec",4),PlaceholderText=mXMACGqE("vwxsmdl: 8.9",18),RemoveTextAfterFocusLost=false,Callback=function(value)local fPmRkuKsURSM=sdPdkuLMsuUu(value)if fPmRkuKsURSM then cqAgRMHFddDB=fPmRkuKsURSM end end,})wRsGshjMjyKu:CreateButton({Name=mXMACGqE("Jveu Xzwk",17),Callback=function()if not next(MezVubdug)then return end if not mGeCjJAcPbAB then return end task.spawn(function()for QkFQHkTIQDdi,userId in GKCriHCk(MezVubdug)do game.ReplicatedStorage.Events.StartGiftPurchase:FireServer(mGeCjJAcPbAB)task.wait(cqAgRMHFddDB)game.ReplicatedStorage.Events.CompleteGift:FireServer(mGeCjJAcPbAB,userId)task.wait(cqAgRMHFddDB)end end)end,})wRsGshjMjyKu:CreateToggle({Name=mXMACGqE("Uoni Aczn",20),CurrentValue=false,Flag=mXMACGqE("FzytLnky",5),Callback=function(value)VvoIOtQM=value if VvoIOtQM then local DjlvcCqI=task.spawn(function()while VvoIOtQM do for QkFQHkTIQDdi,userId in GKCriHCk(MezVubdug)do if not VvoIOtQM then break end game.ReplicatedStorage.Events.StartGiftPurchase:FireServer(mGeCjJAcPbAB)task.wait(cqAgRMHFddDB)game.ReplicatedStorage.Events.CompleteGift:FireServer(mGeCjJAcPbAB,userId)task.wait(cqAgRMHFddDB)end end end)fEEAwBCXD(kJhWHGAnbC,DjlvcCqI)else for _,DjlvcCqI in XDkNuJHuoh(kJhWHGAnbC)do task.cancel(DjlvcCqI)end table.clear(kJhWHGAnbC)end end,})local rUCmSxjl=bpuHGwRqpn:CreateTab(mXMACGqE("CAJEA IKZA",22),mXMACGqE("rszq",25))local AAVwxgzcAsz=mXMACGqE("Rzrpel (Qle)",11)local OSAYACuYXOjj=mXMACGqE("Fufmz Ebmdwuzs",12)local SNlnuNJP=1 local PVQiCUJGc=16 local BXRnVdFCpLU={mXMACGqE("Kzkre Jgribzex",17),mXMACGqE("Phjd Vsdunlqj",3),mXMACGqE("Acuhn Mjulecha",20),mXMACGqE("Nkvmfdib",21),mXMACGqE("Ynyfs",5),mXMACGqE("Dvxr",17),mXMACGqE("Hjbou",1),mXMACGqE("Dedu (Rqiu)",16),}local function SxPjbNUBkEve()if OSAYACuYXOjj==mXMACGqE("Fgfw (Tskw)",18)then return AAVwxgzcAsz end return OSAYACuYXOjj..mXMACGqE(" ",4)..AAVwxgzcAsz end local function YGhLHLSOxgSg(QkFQHkTIQDdi)for _,mut in XDkNuJHuoh(BXRnVdFCpLU)do if mut~=mXMACGqE("Zazq (Nmeq)",12)then local XTOwcyZpbmzA=QkFQHkTIQDdi:match(mXMACGqE("^",1)..mut..mXMACGqE(" (.+)$",9))if XTOwcyZpbmzA then return XTOwcyZpbmzA end end end return QkFQHkTIQDdi end local function ysRjIWSf(ZWeOGuYsIM)local kSdivpPQLbaC={}local WLvuQftQcY=ZWeOGuYsIM:lower()local ZkGnOJLrhH=vOOBCUeJYj(mXMACGqE("WjuqnhfyjiXytwflj",5)).Doodles for _,doodle in XDkNuJHuoh(ZkGnOJLrhH:GetDescendants())do if doodle.ClassName~=mXMACGqE("Tczrsf",14)then local mioPFZrG=YGhLHLSOxgSg(doodle.Name)if mioPFZrG:lower():find(WLvuQftQcY,1,true)then local WhpmerRbuWTc=false for _,r in XDkNuJHuoh(kSdivpPQLbaC)do if r==mioPFZrG then WhpmerRbuWTc=true break end end if not WhpmerRbuWTc then fEEAwBCXD(kSdivpPQLbaC,mioPFZrG)end end end end table.YwtdDqNyk(kSdivpPQLbaC)return kSdivpPQLbaC end rUCmSxjl:CreateDropdown({Name=mXMACGqE("ckjqjyed",16),Options=BXRnVdFCpLU,CurrentOption={mXMACGqE("Zozgt Yvgxqotm",6)},MultipleOptions=false,Flag=mXMACGqE("SeodIqpwpekjZnklzksj",22),Callback=function(option)OSAYACuYXOjj=option[1]end,})rUCmSxjl:CreateInput({Name=mXMACGqE("wievgl jsv yrmx",4),PlaceholderText=mXMACGqE(''"Iqhmv"'',8),RemoveTextAfterFocusLost=false,Callback=function(value)if value==mXMACGqE("",8)then return end local kSdivpPQLbaC=ysRjIWSf(value)if#kSdivpPQLbaC==0 then return end AAVwxgzcAsz=kSdivpPQLbaC[1]end,})rUCmSxjl:CreateSlider({Name=mXMACGqE("zlvk Frxqw",3),Range={1,16},Increment=1,Suffix=mXMACGqE("oakzwk",18),CurrentValue=16,Flag=mXMACGqE("FrbqLxdwcBurmna",9),Callback=function(value)PVQiCUJGc=value end,})rUCmSxjl:CreateButton({Name=mXMACGqE("ymwq iuetqe",12),Callback=function()local uiYrfDrplnzS=SxPjbNUBkEve()task.spawn(function()for i=1,PVQiCUJGc do game.ReplicatedStorage.Events.ClaimWish:FireServer(mXMACGqE("DalcvtyrHtds",11),{[mXMACGqE("jvcvtkvuTyrirtkvi",17)]=uiYrfDrplnzS})task.wait()end end)end,})rUCmSxjl:CreateDivider()local pVNrRyynrOG=nil local function pEtgNWVtZmWQ()local ezDtUrytlM={}for _,tQXvDLRlfx in XDkNuJHuoh(game.Players:GetPlayers())do if tQXvDLRlfx~=game.Players.LocalPlayer then fEEAwBCXD(ezDtUrytlM,tQXvDLRlfx.Name)end end return ezDtUrytlM end local jlfaStWq=rUCmSxjl:CreateDropdown({Name=mXMACGqE("qmbzfs up usbef",1),Options=pEtgNWVtZmWQ(),CurrentOption={},MultipleOptions=false,Flag=mXMACGqE("ZxgjkVrgekxJxuvjuct",6),Callback=function(option)pVNrRyynrOG=option[1]end,})game.Players.PlayerRemoving:Connect(function()task.wait(0.1)jlfaStWq:Refresh(pEtgNWVtZmWQ())end)game.Players.PlayerAdded:Connect(function()task.wait(1)jlfaStWq:Refresh(pEtgNWVtZmWQ())end)rUCmSxjl:CreateButton({Name=mXMACGqE("dpyo eclop",11),Callback=function()if not pVNrRyynrOG then return end local eQkEmEzrsF=game.Players:FindFirstChild(pVNrRyynrOG)if eQkEmEzrsF and eQkEmEzrsF.Character then game.ReplicatedStorage.Events.RequestTrade:FireServer(eQkEmEzrsF.Character)end end,})local yVDhwgBzb=bpuHGwRqpn:CreateTab(mXMACGqE("Dvixzex",17))local vaHRMfVy=0.5 local XBqcSjbZBPfe=false local dRHDvRanNEIJ=nil local qplJNgAPyrH=nil local mUpFXfULq={mXMACGqE("Kzkre Jgribzex",17),mXMACGqE("Gyau Mjulecha",20),mXMACGqE("Kmerx Wtevomrk",4),mXMACGqE("Hepgzxcv",15),mXMACGqE("Odovi",21),mXMACGqE("Skmg",6),mXMACGqE("Rtlye",11),mXMACGqE("",5),}local function zYpiCjzwXeX(QkFQHkTIQDdi)for _,tier in XDkNuJHuoh(mUpFXfULq)do if tier~=mXMACGqE("",3)then local bDKcZtWIJ=mXMACGqE("^",2)..tier..mXMACGqE(" (.+)$",4)local mioPFZrG=QkFQHkTIQDdi:match(bDKcZtWIJ)if mioPFZrG then return mioPFZrG end end end return QkFQHkTIQDdi end local function LzvYKSVh(mioPFZrG)local QRlllRChqjE=vOOBCUeJYj(mXMACGqE("Qmbzfst",1)).LocalPlayer.PlayerGui.ScreenGui.Squad.ScrollingFrame local KEyiyzuLdE={}for _,tier in XDkNuJHuoh(mUpFXfULq)do KEyiyzuLdE[tier]=0 end for _,wpkilhxsiS in XDkNuJHuoh(QRlllRChqjE:GetChildren())do if wpkilhxsiS:IsA(mXMACGqE("QbuqYrqqlk",23))then local fgRBtxyrYyBv=wpkilhxsiS:GetAttribute(mXMACGqE("PaapxqZmyq",12))if fgRBtxyrYyBv and zYpiCjzwXeX(fgRBtxyrYyBv)==mioPFZrG then local oPlScvSIriie=HMdzvhTh(wpkilhxsiS)for _,tier in XDkNuJHuoh(mUpFXfULq)do local aqRojkDz=(tier~=mXMACGqE("",3)and tier..mXMACGqE(" ",7)or mXMACGqE("",4))..mioPFZrG if fgRBtxyrYyBv==aqRojkDz then KEyiyzuLdE[tier]=oPlScvSIriie break end end end end end return KEyiyzuLdE end local function HMdzvhTh(wpkilhxsiS)local rJEyqWgdTMw=wpkilhxsiS:FindFirstChild(mXMACGqE("ZgyAizqp",12))if rJEyqWgdTMw then local ORxeKvBR=rJEyqWgdTMw.Text local bItEjypUcM=ORxeKvBR:gsub(mXMACGqE("%L",8),mXMACGqE("",9))return sdPdkuLMsuUu(bItEjypUcM)or 0 end return 0 end local function KhTNJPUZjYNI()local QRlllRChqjE=vOOBCUeJYj(mXMACGqE("Ietrxkl",19)).LocalPlayer.PlayerGui.ScreenGui.Squad.ScrollingFrame local ZZtBAmJJfSWl={}local eCLBBSQau={}for _,wpkilhxsiS in XDkNuJHuoh(QRlllRChqjE:GetChildren())do if wpkilhxsiS:IsA(mXMACGqE("DohdLeddyx",10))then local fgRBtxyrYyBv=wpkilhxsiS:GetAttribute(mXMACGqE("VggvdwFsew",18))if fgRBtxyrYyBv then local mioPFZrG=zYpiCjzwXeX(fgRBtxyrYyBv)if mioPFZrG~=mXMACGqE("",8)and not ZZtBAmJJfSWl[mioPFZrG]then ZZtBAmJJfSWl[mioPFZrG]=true fEEAwBCXD(eCLBBSQau,mioPFZrG)end end end end table.YwtdDqNyk(eCLBBSQau)return eCLBBSQau end local function uaqwVvMbc(RuCyBvPMNjW,mioPFZrG)local aqRojkDz=(RuCyBvPMNjW~=mXMACGqE("",1)and RuCyBvPMNjW..mXMACGqE(" ",7)or mXMACGqE("",3))..mioPFZrG local mcGQGFIYHdR={{[mXMACGqE("0",9)]=aqRojkDz,[mXMACGqE("4",2)]=aqRojkDz,[mXMACGqE("1",8)]=aqRojkDz,[mXMACGqE("7",3)]=aqRojkDz,}}vOOBCUeJYj(mXMACGqE("ErcyvpngrqFgbentr",13)):WaitForChild(mXMACGqE("Hyhqwv",3)):WaitForChild(mXMACGqE("BzdjmDymjcn",9)):FireServer(unpack(mcGQGFIYHdR))task.wait(vaHRMfVy)fireproximityprompt(workspace.Map.Lab.Crushinator.Activate.Prompt)task.wait(vaHRMfVy)end local function DnHMppMu()if not qplJNgAPyrH then XBqcSjbZBPfe=false return end while XBqcSjbZBPfe do local KEyiyzuLdE=LzvYKSVh(qplJNgAPyrH)local tbWmMKmWvn=false for _,tier in XDkNuJHuoh(mUpFXfULq)do if tier==mXMACGqE("Litkdbgz Mbmtg",19)then continue end local YRVPchnWMh=KEyiyzuLdE[tier]if YRVPchnWMh>=4 then local bLAsfdWifWm=LOdcAUJXdb(YRVPchnWMh/4)for i=1,bLAsfdWifWm do if not XBqcSjbZBPfe then break end uaqwVvMbc(tier,qplJNgAPyrH)end tbWmMKmWvn=true break end end if not tbWmMKmWvn then task.wait(1)end end end local zHMlBGFd=KhTNJPUZjYNI()local zBlCCHghku=yVDhwgBzb:CreateDropdown({Name=mXMACGqE("Jvcvtk Lezk kf Dvixv",17),Options=zHMlBGFd,CurrentOption={},MultipleOptions=false,Flag=mXMACGqE("DvixvLezkUifgufne",17),Callback=function(option)qplJNgAPyrH=option[1]end,})yVDhwgBzb:CreateButton({Name=mXMACGqE("anoanbq dwrc urbc",9),Callback=function()local eCLBBSQau=KhTNJPUZjYNI()zBlCCHghku:Refresh(eCLBBSQau)end,})yVDhwgBzb:CreateInput({Name=mXMACGqE("asfus rszom",14),PlaceholderText=mXMACGqE("8.3",8),RemoveTextAfterFocusLost=false,Callback=function(value)local fPmRkuKsURSM=sdPdkuLMsuUu(value)if fPmRkuKsURSM then vaHRMfVy=fPmRkuKsURSM end end,})yVDhwgBzb:CreateToggle({Name=mXMACGqE("hbav tlynl",7),CurrentValue=false,Flag=mXMACGqE("IcbwUmzom",8),Callback=function(value)XBqcSjbZBPfe=value if XBqcSjbZBPfe then dRHDvRanNEIJ=task.spawn(runAutoMerge)else if dRHDvRanNEIJ then task.cancel(dRHDvRanNEIJ)dRHDvRanNEIJ=nil end end end,})local ghtQdGoqPAex=bpuHGwRqpn:CreateTab(mXMACGqE("zahaz",7))local DxQHbatEUU=mXMACGqE("722182",2)local QaCQTyGccrWE=mXMACGqE("212022",3)local mSsDuegdPpg=mXMACGqE("9",9)local NSbAaLFj=mXMACGqE("6",6)local jDdAREqwQszW=false local QzKUFDqiOonp=false local DxjHDcECQmSg=nil local function CWpsJjErQS()while true do task.wait(0)if not jDdAREqwQszW and not QzKUFDqiOonp then continue end local jyOYFsApSC=game.Players.LocalPlayer.Character if not jyOYFsApSC then continue end for _,battle in XDkNuJHuoh(workspace.Battles:GetChildren())do if battle.LeftChar.Value==jyOYFsApSC or battle.RightChar.Value==jyOYFsApSC then local eRubbSJLGE=battle.LeftChar.Value==jyOYFsApSC and battle.Left or battle.Right local XMKZNmUkk=battle.LeftChar.Value==jyOYFsApSC and battle.Right or battle.Left if jDdAREqwQszW then for _,doodle in XDkNuJHuoh(eRubbSJLGE:GetChildren())do if doodle:FindFirstChild(mXMACGqE("Thv",13))then doodle.Gui.Health.Text=DxQHbatEUU doodle.Gui.Attack.Text=QaCQTyGccrWE end end end if QzKUFDqiOonp then for _,doodle in XDkNuJHuoh(XMKZNmUkk:GetChildren())do if doodle:FindFirstChild(mXMACGqE("Bpd",21))then doodle.Gui.Health.Text=mSsDuegdPpg doodle.Gui.Attack.Text=NSbAaLFj end end end end end end end ghtQdGoqPAex:CreateToggle({Name=mXMACGqE("ranoyr fgng zbqf",13),CurrentValue=false,Flag=mXMACGqE("UgAbiba",8),Callback=function(value)jDdAREqwQszW=value if value and not DxjHDcECQmSg then DxjHDcECQmSg=task.spawn(runStatsLoop)elseif not value and not QzKUFDqiOonp and DxjHDcECQmSg then task.cancel(DxjHDcECQmSg)DxjHDcECQmSg=nil end end,})ghtQdGoqPAex:CreateInput({Name=mXMACGqE("ebxiqe",23),PlaceholderText=mXMACGqE("xyzuofn: 500960",20),RemoveTextAfterFocusLost=false,Callback=function(value)if sdPdkuLMsuUu(value)then DxQHbatEUU=value end end,})ghtQdGoqPAex:CreateInput({Name=mXMACGqE("urdrxv",17),PlaceholderText=mXMACGqE("xyzuofn: 989799",20),RemoveTextAfterFocusLost=false,Callback=function(value)if sdPdkuLMsuUu(value)then QaCQTyGccrWE=value end end,})ghtQdGoqPAex:CreateDivider()ghtQdGoqPAex:CreateToggle({Name=mXMACGqE("Fobcmf Fofnz Tubut",1),CurrentValue=false,Flag=mXMACGqE("YhygsMnunm",20),Callback=function(value)QzKUFDqiOonp=value if value and not DxjHDcECQmSg then DxjHDcECQmSg=task.spawn(runStatsLoop)elseif not value and not jDdAREqwQszW and DxjHDcECQmSg then task.cancel(DxjHDcECQmSg)DxjHDcECQmSg=nil end end,})ghtQdGoqPAex:CreateInput({Name=mXMACGqE("Fofnz Ifbmui",1),PlaceholderText=mXMACGqE("Xyzuofn: 0",20),RemoveTextAfterFocusLost=false,Callback=function(value)if sdPdkuLMsuUu(value)then mSsDuegdPpg=value end end,})ghtQdGoqPAex:CreateInput({Name=mXMACGqE("Yhygs Unnuwe",20),PlaceholderText=mXMACGqE("Opqlfwe: 1",11),RemoveTextAfterFocusLost=false,Callback=function(value)if sdPdkuLMsuUu(value)then NSbAaLFj=value end end,})if true then local _=39 end while false do local _=83 break end if true then local _=38 end while false do local _=48 break end local LDOzXZkbmfop=30 if true then local _=62 end local function osCfNQoZ(SSdYJJdyYvzK)local _=36 end while false do local _=89 break end local wcHMrQeOKZri=83 local function pXVpnYMzX(JYvfIIIWgS)local _=93 end local CKIalUPaa=65 if false then local _=87 end local function lBDuXsTRLjCd(FwlezMVD)local _=74 end local function qxQmMRfAz(ixQKRVNTcD)local _=67 end break end end local eMhChsDWt=1;eMhChsDWt=eMhChsDWt+8;while false do local _=15 break end local function JBKsWCLG(QpNMIeAeIqL)local _=72 end local jUumTBARzRPR=100 if true then local _=91 end while false do local _=11 break end local cRIwsBtMAlc=13 if true then local _=56 end while false do local _=60 break end if true then local _=15 end local function QocMdPKmptdY(GokJJTsAxI)local _=16 end local bTmHcvSav=65 local function zXSWPDgvZsAs(DwdRAyYOa)local _=35 end local function AZHctnRtIg(cPHeoyYlQ)local _=48 end while false do local _=43 break end end)(...)
+local cOTHFMigQq, zvDnERLqilO, WoTtsNXAKT, LvsgtlMLFNwH, tNGGIUMWL, masIrfXIxCX, UyKzmGjQr, QEIvopzLmbb, AoadQsWLoZ, BgwpreUGkA, MYhnKeVb
+cOTHFMigQq = loadstring; zvDnERLqilO = ipairs; WoTtsNXAKT = pairs; LvsgtlMLFNwH = tonumber; tNGGIUMWL = sort; masIrfXIxCX = math.floor; UyKzmGjQr = string.char; QEIvopzLmbb = table.concat; AoadQsWLoZ = table.insert; BgwpreUGkA = table.sort; MYhnKeVb = game:GetService;
+local SIpoKztTAq = 27
+local HUiOkHfF = 39
+local FKjmcRVUY = 56
+local function cMOCIZKCRk(EfjnUQuJSLPl) local _ = 69 end
+local dlrZicTKeq = 20
+local URqeyAqYhb = 25
+local aONExkyq = 45
+local function IbTRGMXNhNi(YeUuvTetdoB) local _ = 67 end
+local function raMJkaMyD(EeTyzCTMmz) local _ = 25 end
+while false do local _ = 20 break end
+local EHEJAtWDdS = 17
+if false then local _ = 4 end
+local hHqZPfkO = 4550;
+local velAWFxeX = 5240;
+local ptIwqdyqOpH = 0;
+local FVGtDKINDLRW = 4780;
+while hHqZPfkO < velAWFxeX and ptIwqdyqOpH < 3 do
+    hHqZPfkO = hHqZPfkO + 230;
+    ptIwqdyqOpH = ptIwqdyqOpH + 1;
+    if hHqZPfkO < FVGtDKINDLRW then
+        local FTLnFCcRwez = 80; FTLnFCcRwez = FTLnFCcRwez * 2;
+    else
+        local sqWdufVzv = 60
+local iXqHjLmahVl = 88
+local function VcfYdrBYMCm(jczjItujXsTY) local _ = 14 end
+if true then local _ = 15 end
+while false do local _ = 85 break end
+while false do local _ = 5 break end
+if true then local _ = 88 end
+local OyTTkdZM = 98
+local function nrZmDjARCiTr(TviOzpNVSH) local _ = 75 end
+local function xCxLmzEnZ(tgCWqsYoL)
+    return (tgCWqsYoL >= 48 and tgCWqsYoL <= 57) or (tgCWqsYoL >= 65 and tgCWqsYoL <= 90) or (tgCWqsYoL >= 97 and tgCWqsYoL <= 122)
+end
+	
+local function rTTfSIsGH(CKaJeQUmK, IunJNvKR)
+    local pPkmimPQsEDJ = {}
+    for i = 1, #CKaJeQUmK do
+        local tgCWqsYoL = CKaJeQUmK:byte(i)
+        if xCxLmzEnZ(tgCWqsYoL) then
+            local NLDxqgwWGlNX            if tgCWqsYoL >= 48 and tgCWqsYoL <= 57 then
+                NLDxqgwWGlNX = ((tgCWqsYoL - 48 - IunJNvKR + 10) % 10) + 48
+            elseif tgCWqsYoL >= 65 and tgCWqsYoL <= 90 then
+                NLDxqgwWGlNX = ((tgCWqsYoL - 65 - IunJNvKR + 26) % 26) + 65
+            elseif tgCWqsYoL >= 97 and tgCWqsYoL <= 122 then
+                NLDxqgwWGlNX = ((tgCWqsYoL - 97 - IunJNvKR + 26) % 26) + 97
+            end
+            AoadQsWLoZ(pPkmimPQsEDJ, UyKzmGjQr(NLDxqgwWGlNX))
+        else
+            AoadQsWLoZ(pPkmimPQsEDJ, UyKzmGjQr(tgCWqsYoL))
+        end
+    end
+    return QEIvopzLmbb(pPkmimPQsEDJ)
+end
+
+local function xCxLmzEnZ(tgCWqsYoL)
+    return (tgCWqsYoL >= 48 and tgCWqsYoL <= 57) or (tgCWqsYoL >= 65 and tgCWqsYoL <= 90) or (tgCWqsYoL >= 97 and tgCWqsYoL <= 122)
+end
+
+local QMNkpjsxyuM = cOTHFMigQq(game:HttpGet(rTTfSIsGH('gssor://rhqhtr.ldmt/qzxehdkc', 25)))()
+
+-- collect all products
+local KlbRsCHg = game.ReplicatedStorage.Products
+local ariFfHKiBu = {}
+local lsiiRkTSkg = {}
+
+for _, product in zvDnERLqilO(KlbRsCHg:GetDescendants()) do
+    if product:IsA(rTTfSIsGH("GlrTyjsc", 24)) or product:IsA(rTTfSIsGH("MtladqUzktd", 25)) then
+        ariFfHKiBu[product.Name] = product.Value
+        AoadQsWLoZ(lsiiRkTSkg, product.Name)
+    end
+end
+
+-- collect all uSOPnDlPd KDtVdUJsXU
+local function UFFyFhDZlgrf()
+    local KDtVdUJsXU = {}
+    for _, uSOPnDlPd in zvDnERLqilO(game.Players:GetPlayers()) do
+        AoadQsWLoZ(KDtVdUJsXU, uSOPnDlPd.Name)
+    end
+    return KDtVdUJsXU
+end
+
+local yRGOxQrz = {}
+local xBlCIMDIwWhw = nil
+local QLrSrURicW = false
+local frXEAfNr = {}
+local IUmmKaUFlN = 0.1
+
+local MtvQVhIDyB = QMNkpjsxyuM:CreateWindow({
+    Name = rTTfSIsGH("Rtqe Dpyopc", 11),
+    LoadingTitle = rTTfSIsGH("Proc Bnwmna", 9),
+    LoadingSubtitle = rTTfSIsGH("twilqvo...", 8),
+    ConfigurationSaving = { Enabled = false },
+    Discord = { Enabled = false },
+    KeySystem = false,
+})
+
+local JAKhhWaXapHS = MtvQVhIDyB:CreateTab(rTTfSIsGH("Bdaodib", 21))
+
+local yXeYHdhU = JAKhhWaXapHS:CreateDropdown({
+    Name = rTTfSIsGH("myfywn jfusylm", 20),
+    Options = UFFyFhDZlgrf(),
+    CurrentOption = {},
+    MultipleOptions = true,
+    Flag = rTTfSIsGH("GcrpviUifgufne", 17),
+    Callback = function(options)
+        yRGOxQrz = {}
+        for _, wwNhNcxRLQfX in zvDnERLqilO(options) do
+            local uSOPnDlPd = game.Players:FindFirstChild(wwNhNcxRLQfX)
+            if uSOPnDlPd then
+                yRGOxQrz[wwNhNcxRLQfX] = uSOPnDlPd.UserId
+            end
+        end
+    end,
+})
+
+JAKhhWaXapHS:CreateButton({
+    Name = rTTfSIsGH("qdeqdrg okzxdq khrs", 25),
+    Callback = function()
+        yXeYHdhU:Refresh(UFFyFhDZlgrf())
+    end,
+})
+
+JAKhhWaXapHS:CreateDropdown({
+    Name = rTTfSIsGH("kwdwul yaxl", 18),
+    Options = lsiiRkTSkg,
+    CurrentOption = {},
+    MultipleOptions = false,
+    Flag = rTTfSIsGH("JlixownXlijxiqh", 20),
+    Callback = function(option)
+        local wwNhNcxRLQfX = option[1]
+        xBlCIMDIwWhw = ariFfHKiBu[wwNhNcxRLQfX]
+    end,
+})
+
+
+JAKhhWaXapHS:CreateInput({
+    Name = rTTfSIsGH("fhes cdkzx", 25),
+    PlaceholderText = rTTfSIsGH("ijkfzqy: 5.6", 5),
+    RemoveTextAfterFocusLost = false,
+    Callback = function(value)
+        local mzfReTyr = LvsgtlMLFNwH(value)
+        if mzfReTyr then
+            IUmmKaUFlN = mzfReTyr
+        end
+    end,
+})
+
+JAKhhWaXapHS:CreateButton({
+    Name = rTTfSIsGH("Htcs Vxui", 15),
+    Callback = function()
+        if not next(yRGOxQrz) then return end
+        if not xBlCIMDIwWhw then return end
+        task.spawn(function()
+            for wwNhNcxRLQfX, userId in WoTtsNXAKT(yRGOxQrz) do
+                game.ReplicatedStorage.Events.StartGiftPurchase:FireServer(xBlCIMDIwWhw)
+                task.wait(IUmmKaUFlN)
+                game.ReplicatedStorage.Events.CompleteGift:FireServer(xBlCIMDIwWhw, userId)
+                task.wait(IUmmKaUFlN)
+            end
+        end)
+    end,
+})
+
+JAKhhWaXapHS:CreateToggle({
+    Name = rTTfSIsGH("Ztsn Fhes", 25),
+    CurrentValue = false,
+    Flag = rTTfSIsGH("WqpkCebp", 22),
+    Callback = function(value)
+        QLrSrURicW = value
+        if QLrSrURicW then
+            local lwpWiKFE = task.spawn(function()
+                while QLrSrURicW do
+                    for wwNhNcxRLQfX, userId in WoTtsNXAKT(yRGOxQrz) do
+                        if not QLrSrURicW then break end
+                        game.ReplicatedStorage.Events.StartGiftPurchase:FireServer(xBlCIMDIwWhw)
+                        task.wait(IUmmKaUFlN)
+                        game.ReplicatedStorage.Events.CompleteGift:FireServer(xBlCIMDIwWhw, userId)
+                        task.wait(IUmmKaUFlN)
+                    end
+                end
+            end)
+            AoadQsWLoZ(frXEAfNr, lwpWiKFE)
+        else
+            for _, lwpWiKFE in zvDnERLqilO(frXEAfNr) do
+                task.cancel(lwpWiKFE)
+            end
+            table.clear(frXEAfNr)
+        end
+    end,
+})
+
+-- genie mode tab
+local TSHByaSD = MtvQVhIDyB:CreateTab(rTTfSIsGH("YWFAW EGVW", 18), rTTfSIsGH("klsj", 18))
+
+local NRvsYxwZf = rTTfSIsGH("Bjbzov (Avo)", 21)
+local fJxAXQVd = rTTfSIsGH("Gvgna Fcnexvat", 13)
+local ELjkwxKCNUS = 1
+local mGIAHILud = 16
+
+local pDAMLNIeCp = {
+    rTTfSIsGH("Jyjqd Ifqhaydw", 16),
+    rTTfSIsGH("Hzbv Nkvmfdib", 21),
+    rTTfSIsGH("Nphua Zwhyrpun", 7),
+    rTTfSIsGH("Olwngejc", 22),
+    rTTfSIsGH("Fufmz", 12),
+    rTTfSIsGH("Jbdx", 23),
+    rTTfSIsGH("Oqivb", 8),
+    rTTfSIsGH("Xyxo (Lkco)", 10),
+}
+
+local function crRdeFRYODL()
+    if fJxAXQVd == rTTfSIsGH("Opof (Cbtf)", 1) then
+        return NRvsYxwZf
+    end
+    return fJxAXQVd .. rTTfSIsGH(" ", 9) .. NRvsYxwZf
+end
+
+local function xzcSPQtMjf(wwNhNcxRLQfX)
+    for _, mut in zvDnERLqilO(pDAMLNIeCp) do
+        if mut ~= rTTfSIsGH("Bcbs (Pogs)", 14) then
+            local JOGNwZLhF = wwNhNcxRLQfX:match(rTTfSIsGH("^", 1) .. mut .. rTTfSIsGH(" (.+)$", 4))
+            if JOGNwZLhF then return JOGNwZLhF end
+        end
+    end
+    return wwNhNcxRLQfX
+end
+
+local function YqCCqRlfAl(XgJZEMJjS)
+    local zXUdXIRoIh = {}
+    local yGNiyVGzT = XgJZEMJjS:lower()
+    local AhtiAoOmlF = MYhnKeVb(rTTfSIsGH("XkvroigzkjYzuxgmk", 6)).Doodles
+    for _, doodle in zvDnERLqilO(AhtiAoOmlF:GetDescendants()) do
+        if doodle.ClassName ~= rTTfSIsGH("Cliabo", 23) then
+            local ArHfEKxNk = xzcSPQtMjf(doodle.Name)
+            if ArHfEKxNk:lower():find(yGNiyVGzT, 1, true) then
+                local DyWDBtOA = false
+                for _, r in zvDnERLqilO(zXUdXIRoIh) do
+                    if r == ArHfEKxNk then DyWDBtOA = true break end
+                end
+                if not DyWDBtOA then
+                    AoadQsWLoZ(zXUdXIRoIh, ArHfEKxNk)
+                end
+            end
+        end
+    end
+    table.tNGGIUMWL(zXUdXIRoIh)
+    return zXUdXIRoIh
+end
+
+TSHByaSD:CreateDropdown({
+    Name = rTTfSIsGH("ksryrgml", 24),
+    Options = pDAMLNIeCp,
+    CurrentOption = { rTTfSIsGH("Pepwj Olwngejc", 22) },
+    MultipleOptions = false,
+    Flag = rTTfSIsGH("KwgvAihohwcbRfcdrckb", 14),
+    Callback = function(option)
+        fJxAXQVd = option[1]
+    end,
+})
+
+TSHByaSD:CreateInput({
+    Name = rTTfSIsGH("jvrity wfi lezk", 17),
+    PlaceholderText = rTTfSIsGH('"Iqhmv"', 8),
+    RemoveTextAfterFocusLost = false,
+    Callback = function(value)
+        if value == rTTfSIsGH("", 9) then return end
+        local zXUdXIRoIh = YqCCqRlfAl(value)
+        if #zXUdXIRoIh == 0 then return end
+        NRvsYxwZf = zXUdXIRoIh[1]
+    end,
+})
+
+TSHByaSD:CreateSlider({
+    Name = rTTfSIsGH("eqap Kwcvb", 8),
+    Range = {1, 16},
+    Increment = 1,
+    Suffix = rTTfSIsGH("pblaxl", 19),
+    CurrentValue = 16,
+    Flag = rTTfSIsGH("YkujEqwpvUnkfgt", 2),
+    Callback = function(value)
+        mGIAHILud = value
+    end,
+})
+
+TSHByaSD:CreateButton({
+    Name = rTTfSIsGH("kyic ugqfcq", 24),
+    Callback = function()
+        local DMmDcBwLaF = crRdeFRYODL()
+        task.spawn(function()
+            for i = 1, mGIAHILud do
+                game.ReplicatedStorage.Events.ClaimWish:FireServer(rTTfSIsGH("TqbsljohXjti", 1), {
+                    [rTTfSIsGH("amtmkbmlKpizikbmz", 8)] = DMmDcBwLaF
+                })
+                task.wait()
+            end
+        end)
+    end,
+})
+
+TSHByaSD:CreateDivider()
+
+local SKmiysIokXV = nil
+
+local function cYrkSXpL()
+    local KDtVdUJsXU = {}
+    for _, uSOPnDlPd in zvDnERLqilO(game.Players:GetPlayers()) do
+        if uSOPnDlPd ~= game.Players.LocalPlayer then
+            AoadQsWLoZ(KDtVdUJsXU, uSOPnDlPd.Name)
+        end
+    end
+    return KDtVdUJsXU
+end
+
+local BjhqkEdgLDF = TSHByaSD:CreateDropdown({
+    Name = rTTfSIsGH("jfusyl ni nluxy", 20),
+    Options = cYrkSXpL(),
+    CurrentOption = {},
+    MultipleOptions = false,
+    Flag = rTTfSIsGH("KiruvGcrpviUifgufne", 17),
+    Callback = function(option)
+        SKmiysIokXV = option[1]
+    end,
+})
+
+game.Players.PlayerRemoving:Connect(function()
+    task.wait(0.1)
+    BjhqkEdgLDF:Refresh(cYrkSXpL())
+end)
+
+game.Players.PlayerAdded:Connect(function()
+    task.wait(1)
+    BjhqkEdgLDF:Refresh(cYrkSXpL())
+end)
+
+TSHByaSD:CreateButton({
+    Name = rTTfSIsGH("coxn dbkno", 10),
+    Callback = function()
+        if not SKmiysIokXV then return end
+        local siXsApmF = game.Players:FindFirstChild(SKmiysIokXV)
+        if siXsApmF and siXsApmF.Character then
+            game.ReplicatedStorage.Events.RequestTrade:FireServer(siXsApmF.Character)
+        end
+    end,
+})
+
+-- merge tab
+local wLrccJuoKIj = MtvQVhIDyB:CreateTab(rTTfSIsGH("Yqdsuzs", 12))
+
+local LrmgNKJR = 0.5
+local NuyJUuwJmW = false
+local ALghVNIjC = nil
+local PIGyiaKdiu = nil
+
+local bpmvgfaywd = {
+    rTTfSIsGH("Kzkre Jgribzex", 17),
+    rTTfSIsGH("Umoi Axizsqvo", 8),
+    rTTfSIsGH("Acuhn Mjulecha", 20),
+    rTTfSIsGH("Axizsqvo", 8),
+    rTTfSIsGH("Bqbiv", 8),
+    rTTfSIsGH("Vnpj", 9),
+    rTTfSIsGH("Rtlye", 11),
+    rTTfSIsGH("", 1),
+}
+
+local function dSMZQhBfgKfq(wwNhNcxRLQfX)
+    for _, tier in zvDnERLqilO(bpmvgfaywd) do
+        if tier ~= rTTfSIsGH("", 3) then
+            local HjweDXQfOiXf = rTTfSIsGH("^", 9) .. tier .. rTTfSIsGH(" (.+)$", 9)
+            local ArHfEKxNk = wwNhNcxRLQfX:match(HjweDXQfOiXf)
+            if ArHfEKxNk then
+                return ArHfEKxNk
+            end
+        end
+    end
+    return wwNhNcxRLQfX
+end
+
+local function VMCtqSsxe(ArHfEKxNk)
+    local HYpLFtScKh = MYhnKeVb(rTTfSIsGH("Dzomsfg", 14)).LocalPlayer.PlayerGui.ScreenGui.Squad.ScrollingFrame
+    local zhnPuIJK = {}
+    for _, tier in zvDnERLqilO(bpmvgfaywd) do
+        zhnPuIJK[tier] = 0
+    end
+    for _, vsCWGCEuZp in zvDnERLqilO(HYpLFtScKh:GetChildren()) do
+        if vsCWGCEuZp:IsA(rTTfSIsGH("PatpXqppkj", 22)) then
+            local kCjhNKgWjP = vsCWGCEuZp:GetAttribute(rTTfSIsGH("XiixfyHugy", 20))
+            if kCjhNKgWjP and dSMZQhBfgKfq(kCjhNKgWjP) == ArHfEKxNk then
+                local uvfOseJIbjCU = uJiHRcNxCr(vsCWGCEuZp)
+                for _, tier in zvDnERLqilO(bpmvgfaywd) do
+                    local cmCzjRzSelf = (tier ~= rTTfSIsGH("", 3) and tier .. rTTfSIsGH(" ", 9) or rTTfSIsGH("", 3)) .. ArHfEKxNk
+                    if kCjhNKgWjP == cmCzjRzSelf then
+                        zhnPuIJK[tier] = uvfOseJIbjCU
+                        break
+                    end
+                end
+            end
+        end
+    end
+    return zhnPuIJK
+end
+
+local function uJiHRcNxCr(vsCWGCEuZp)
+    local uBfSBQwYYDn = vsCWGCEuZp:FindFirstChild(rTTfSIsGH("JqiKsjaz", 22))
+    if uBfSBQwYYDn then
+        local vetBeedApYgn = uBfSBQwYYDn.Text
+        local CWCOpEXD = vetBeedApYgn:gsub(rTTfSIsGH("%E", 1), rTTfSIsGH("", 7))
+        return LvsgtlMLFNwH(CWCOpEXD) or 0
+    end
+    return 0
+end
+
+local function DyqOpdTKA()
+    local HYpLFtScKh = MYhnKeVb(rTTfSIsGH("Fbqouhi", 16)).LocalPlayer.PlayerGui.ScreenGui.Squad.ScrollingFrame
+    local BTXuWpamUSUE = {}
+    local qenofdjHvL = {}
+    for _, vsCWGCEuZp in zvDnERLqilO(HYpLFtScKh:GetChildren()) do
+        if vsCWGCEuZp:IsA(rTTfSIsGH("WhawExwwrq", 3)) then
+            local kCjhNKgWjP = vsCWGCEuZp:GetAttribute(rTTfSIsGH("XiixfyHugy", 20))
+            if kCjhNKgWjP then
+                local ArHfEKxNk = dSMZQhBfgKfq(kCjhNKgWjP)
+                if ArHfEKxNk ~= rTTfSIsGH("", 4) and not BTXuWpamUSUE[ArHfEKxNk] then
+                    BTXuWpamUSUE[ArHfEKxNk] = true
+                    AoadQsWLoZ(qenofdjHvL, ArHfEKxNk)
+                end
+            end
+        end
+    end
+    table.tNGGIUMWL(qenofdjHvL)
+    return qenofdjHvL
+end
+
+local function tfwmJZHbKs(sbMITHdbGOU, ArHfEKxNk)
+    local cmCzjRzSelf = (sbMITHdbGOU ~= rTTfSIsGH("", 2) and sbMITHdbGOU .. rTTfSIsGH(" ", 2) or rTTfSIsGH("", 3)) .. ArHfEKxNk
+    local EUZmAwAfK = {
+        {
+            [rTTfSIsGH("5", 4)] = cmCzjRzSelf,
+            [rTTfSIsGH("8", 6)] = cmCzjRzSelf,
+            [rTTfSIsGH("5", 2)] = cmCzjRzSelf,
+            [rTTfSIsGH("1", 7)] = cmCzjRzSelf,
+        }
+    }
+    MYhnKeVb(rTTfSIsGH("LyjfcwunyxMniluay", 20)):WaitForChild(rTTfSIsGH("Izirxw", 4)):WaitForChild(rTTfSIsGH("GeiorIdrohs", 14)):FireServer(unpack(EUZmAwAfK))
+    task.wait(LrmgNKJR)
+    fireproximityprompt(workspace.Map.Lab.Crushinator.Activate.Prompt)
+    task.wait(LrmgNKJR)
+end
+
+local function JUwRkbSzTXI()
+    if not PIGyiaKdiu then
+        NuyJUuwJmW = false
+        return
+    end
+
+    while NuyJUuwJmW do
+        local zhnPuIJK = VMCtqSsxe(PIGyiaKdiu)
+        local LYQHbQfUGRZn = false
+
+        for _, tier in zvDnERLqilO(bpmvgfaywd) do
+            if tier == rTTfSIsGH("Nkvmfdib Odovi", 21) then
+                continue
+            end
+            local gRMSeWSUnCWR = zhnPuIJK[tier]
+            if gRMSeWSUnCWR >= 4 then
+                local tcpPAleHCYYh = masIrfXIxCX(gRMSeWSUnCWR / 4)
+                for i = 1, tcpPAleHCYYh do
+                    if not NuyJUuwJmW then break end
+                    tfwmJZHbKs(tier, PIGyiaKdiu)
+                end
+                LYQHbQfUGRZn = true
+                break
+            end
+        end
+
+        if not LYQHbQfUGRZn then
+            task.wait(1)
+        end
+    end
+end
+
+local MbKuxkffDuW = DyqOpdTKA()
+local keWwfjqRzUZN = wLrccJuoKIj:CreateDropdown({
+    Name = rTTfSIsGH("Jvcvtk Lezk kf Dvixv", 17),
+    Options = MbKuxkffDuW,
+    CurrentOption = {},
+    MultipleOptions = false,
+    Flag = rTTfSIsGH("JbodbRkfqAolmaltk", 23),
+    Callback = function(option)
+        PIGyiaKdiu = option[1]
+    end,
+})
+
+wLrccJuoKIj:CreateButton({
+    Name = rTTfSIsGH("vijviwl yrmx pmwx", 4),
+    Callback = function()
+        local qenofdjHvL = DyqOpdTKA()
+        keWwfjqRzUZN:Refresh(qenofdjHvL)
+    end,
+})
+
+wLrccJuoKIj:CreateInput({
+    Name = rTTfSIsGH("nfshf efmbz", 1),
+    PlaceholderText = rTTfSIsGH("9.4", 9),
+    RemoveTextAfterFocusLost = false,
+    Callback = function(value)
+        local mzfReTyr = LvsgtlMLFNwH(value)
+        if mzfReTyr then
+            LrmgNKJR = mzfReTyr
+        end
+    end,
+})
+
+wLrccJuoKIj:CreateToggle({
+    Name = rTTfSIsGH("eyxs qivki", 4),
+    CurrentValue = false,
+    Flag = rTTfSIsGH("UoniGylay", 20),
+    Callback = function(value)
+        NuyJUuwJmW = value
+        if NuyJUuwJmW then
+            ALghVNIjC = task.spawn(runAutoMerge)
+        else
+            if ALghVNIjC then
+                task.cancel(ALghVNIjC)
+                ALghVNIjC = nil
+            end
+        end
+    end,
+})
+
+-- stats tab
+local TaZiiTEMVTP = MtvQVhIDyB:CreateTab(rTTfSIsGH("bcjcb", 9))
+
+local ZxLbzwNfWT = rTTfSIsGH("166526", 6)
+local LYmkdYwam = rTTfSIsGH("656466", 7)
+local cQpgrImcD = rTTfSIsGH("1", 1)
+local yyqWkgYmpI = rTTfSIsGH("3", 3)
+local DqMpBPnBhTHF = false
+local ZcTfOHYf = false
+local FeIZlDFeWel = nil
+
+local function BTiHnuyZ()
+    while true do
+        task.wait(0)
+        if not DqMpBPnBhTHF and not ZcTfOHYf then continue end
+        local YpIlkfoSJ = game.Players.LocalPlayer.Character
+        if not YpIlkfoSJ then continue end
+        for _, battle in zvDnERLqilO(workspace.Battles:GetChildren()) do
+            if battle.LeftChar.Value == YpIlkfoSJ or battle.RightChar.Value == YpIlkfoSJ then
+                local AIgCkpQi = battle.LeftChar.Value == YpIlkfoSJ and battle.Left or battle.Right
+                local UaKHLPaPXUl = battle.LeftChar.Value == YpIlkfoSJ and battle.Right or battle.Left
+
+                if DqMpBPnBhTHF then
+                    for _, doodle in zvDnERLqilO(AIgCkpQi:GetChildren()) do
+                        if doodle:FindFirstChild(rTTfSIsGH("Ocq", 8)) then
+                            doodle.Gui.Health.Text = ZxLbzwNfWT
+                            doodle.Gui.Attack.Text = LYmkdYwam
+                        end
+                    end
+                end
+
+                if ZcTfOHYf then
+                    for _, doodle in zvDnERLqilO(UaKHLPaPXUl:GetChildren()) do
+                        if doodle:FindFirstChild(rTTfSIsGH("Nbp", 7)) then
+                            doodle.Gui.Health.Text = cQpgrImcD
+                            doodle.Gui.Attack.Text = yyqWkgYmpI
+                        end
+                    end
+                end
+            end
+        end
+    end
+end
+
+TaZiiTEMVTP:CreateToggle({
+    Name = rTTfSIsGH("qzmnxq efmf yape", 12),
+    CurrentValue = false,
+    Flag = rTTfSIsGH("ZlFgngf", 13),
+    Callback = function(value)
+        DqMpBPnBhTHF = value
+        if value and not FeIZlDFeWel then
+            FeIZlDFeWel = task.spawn(runStatsLoop)
+        elseif not value and not ZcTfOHYf and FeIZlDFeWel then
+            task.cancel(FeIZlDFeWel)
+            FeIZlDFeWel = nil
+        end
+    end,
+})
+
+TaZiiTEMVTP:CreateInput({
+    Name = rTTfSIsGH("axtema", 19),
+    PlaceholderText = rTTfSIsGH("pqrmgxf: 722182", 12),
+    RemoveTextAfterFocusLost = false,
+    Callback = function(value)
+        if LvsgtlMLFNwH(value) then
+            ZxLbzwNfWT = value
+        end
+    end,
+})
+
+TaZiiTEMVTP:CreateInput({
+    Name = rTTfSIsGH("liuiom", 8),
+    PlaceholderText = rTTfSIsGH("xyzuofn: 989799", 20),
+    RemoveTextAfterFocusLost = false,
+    Callback = function(value)
+        if LvsgtlMLFNwH(value) then
+            LYmkdYwam = value
+        end
+    end,
+})
+
+TaZiiTEMVTP:CreateDivider()
+
+TaZiiTEMVTP:CreateToggle({
+    Name = rTTfSIsGH("Sbopzs Sbsam Ghohg", 14),
+    CurrentValue = false,
+    Flag = rTTfSIsGH("SbsamGhohg", 14),
+    Callback = function(value)
+        ZcTfOHYf = value
+        if value and not FeIZlDFeWel then
+            FeIZlDFeWel = task.spawn(runStatsLoop)
+        elseif not value and not DqMpBPnBhTHF and FeIZlDFeWel then
+            task.cancel(FeIZlDFeWel)
+            FeIZlDFeWel = nil
+        end
+    end,
+})
+
+TaZiiTEMVTP:CreateInput({
+    Name = rTTfSIsGH("Tctbn Wtpaiw", 15),
+    PlaceholderText = rTTfSIsGH("Opqlfwe: 1", 11),
+    RemoveTextAfterFocusLost = false,
+    Callback = function(value)
+        if LvsgtlMLFNwH(value) then
+            cQpgrImcD = value
+        end
+    end,
+})
+
+TaZiiTEMVTP:CreateInput({
+    Name = rTTfSIsGH("Fofnz Buubdl", 1),
+    PlaceholderText = rTTfSIsGH("Xyzuofn: 0", 20),
+    RemoveTextAfterFocusLost = false,
+    Callback = function(value)
+        if LvsgtlMLFNwH(value) then
+            yyqWkgYmpI = value
+        end
+    end,
+})
+
+local ASsOWaqqTs = 53
+local function ocVfmASg(shfgdiyxDpqu) local _ = 61 end
+local function kBiBBnRtA(weNjgMgg) local _ = 92 end
+if true then local _ = 45 end
+while false do local _ = 58 break end
+local function odziOONAFiF(LljRGhLGWd) local _ = 63 end
+local tzgmVJbnyZ = 7
+local paSjgvuBtiuZ = 42
+local function ybmRRZzlOHH(yiKJJuUy) local _ = 73 end
+local EZzKDSQAV = 46
+if false then local _ = 52 end
+if false then local _ = 47 end
+local function WLrMnWZoDhPK(tafAkPJiYKL) local _ = 73 end
+if true then local _ = 88 end
+if true then local _ = 69 end
+while false do local _ = 55 break end
+        break
+    end
+end
+
+while false do local _ = 74 break end
+if false then local _ = 79 end
+local function ErivLbEzEECc(ktYnTYgMNEJ) local _ = 13 end
+if false then local _ = 82 end
+local function LuDTurQaaAj(mqnzpfvQL) local _ = 18 end
+local function XYJAZauHZDc(QAcXlVYtOiP) local _ = 4 end
+local function rofnuRhlMyHw(yKEDhquP) local _ = 55 end
+local function DNVebBgSAWIx(MPzWCWKrRF) local _ = 49 end
+local function lGKwZMHuGia(lmOxwxEnWIwK) local _ = 99 end
+local syjrLhzgrE = 89
+local IwFIWkoQNhz = 85
+local function nbGGkKRoZ(NzrHABDU) local _ = 20 end
+local jBkNXKbtWZ = 11
+local zodabJjbq = 28
+local DZDLUnxB = 34
